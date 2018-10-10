@@ -1,0 +1,108 @@
+body
+{
+	margin:0px;
+}
+.frame{
+	width:100%;
+	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+	margin-left:auto;margin-right:auto;
+	/*background-color:#334694;*/
+	
+	background: -webkit-linear-gradient(#4C67A1,#3B5998);
+	background: -o-linear-gradient(#4C67A1,#3B5998);
+	background: -moz-linear-gradient(#4C67A1,#3B5998);
+	background: linear-gradient(#4C67A1,#3B5998);
+}
+.left{
+	width:500px;
+	/*background-color:#acd6ff;*/
+}
+.right{
+	width:500px;/*text-align:right;*/
+	/*background-color:#ffd9ec;*/
+	align-items:flex-end;
+}
+
+.framedown{
+	margin:20px;
+	width:100%;
+	
+	display:flex;
+	justify-content:center;
+	/*align-items:center;*/
+	
+	margin-left:auto;margin-right:auto;
+	/*background-color:#f0f0f0;*/
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+	/*background: rgb(238,238,238); /* Old browsers */
+	/*background: -moz-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6-15 */
+	/*background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	/*background: linear-gradient(to bottom, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+
+	/*d8d8eb  d0cfe7 d0cee9 d5d4ed d7d6e6 d6d6e6 d9d9e8 d2d3e5 cfd0e2 d3d5e9 d1d3e6 d5d7e7 d6d8e6*/
+	background: -webkit-linear-gradient(white,#d5d6e6);
+	background: -o-linear-gradient(white,#d5d6e6);
+	background: -moz-linear-gradient(white,#d5d6e6);
+	background: linear-gradient(white,#d5d6e6);
+}
+.white{
+	color:white;
+	font-size:13px;
+}
+.b{
+	margin:10px;
+}
+.border{
+	border-radius:6px;
+	border: 1px #bdc7d8 solid;
+}
+.footerframe{
+	width:1000px;
+	
+	display:flex-column;
+	/*text-align:center;*/
+	justify-content:center;
+	align-items:center;
+	
+	margin-left:auto;margin-right:auto;
+	background-color:white;
+}
+.submit {
+  background-color: #4267b2;
+  /*padding: .5em;*/
+  -moz-border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Oswald';
+  font-size:14px;
+  text-decoration: none;
+  /*border: none;*/
+  /*border:1px dimgray solid;*/
+  border: 1px #29487d solid;
+}
+
+.submit:hover {
+  border: none;
+  background: #3B5998;
+  box-shadow: 0px 0px 1px #777;
+}
+
+.sign{
+	background-color:	#609E4D;
+	background: -webkit-linear-gradient(#6aaf57,#578943);
+	background: -o-linear-gradient(#6aaf57,#578943);
+	background: -moz-linear-gradient(#6aaf57,#578943);
+	background: linear-gradient(#6aaf57,#578943);
+	
+	color:white;
+	font-size:20px;
+	width:200px;
+	height:40px;
+	border-radius:4px;
+	border: 1px #3b6e22 solid;
+}5\\
